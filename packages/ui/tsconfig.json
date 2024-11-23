@@ -1,0 +1,14 @@
+{
+  "extends": "@ballerine/config/tsconfig.dom-bundler.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "jsx": "react-jsx",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "module": "preserve",
+    "moduleResolution": "bundler"
+  },
+  "include": ["src"]
+}
