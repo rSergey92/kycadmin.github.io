@@ -1,5 +1,6 @@
 {
   "author": "Ballerine <dev@ballerine.com>",
+  "homepage": "https://rsergey92.github.io/kycadmin.github.io/",
   "repository": {
     "type": "git",
     "url": "https://github.com/ballerine-io/ballerine/tree/main/sdks/web-ui-sdk"
@@ -27,7 +28,7 @@
     "dist"
   ],
   "main": "./dist/ballerine-sdk.umd.cjs",
-  "module": "./dist/ballerine-sdk.js",
+  "module": "ballerine-sdk.js",
   "exports": {
     ".": {
       "import": "./dist/ballerine-sdk.js",
