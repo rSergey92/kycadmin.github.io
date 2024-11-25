@@ -27,12 +27,12 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/ballerine-sdk.umd.cjs",
+  "main": "ballerine-sdk.umd.cjs",
   "module": "ballerine-sdk.js",
   "exports": {
     ".": {
-      "import": "./dist/ballerine-sdk.js",
-      "require": "./dist/ballerine-sdk.umd.cjs"
+      "import": "ballerine-sdk.js",
+      "require": "ballerine-sdk.umd.cjs"
     }
   },
   "scripts": {
